@@ -13,9 +13,9 @@ function Home() {
                         localStorage.setItem("lang", e.target.value);
                         window.location.reload();
                     }}>
+                    <option value="en">English</option>
                     <option value="mr">Marathi</option>
                     <option value="hi">Hindi</option>
-                    <option value="en">English</option>
                 </select>
                 <h1>{I18n("welcomeMessage")}</h1>
                 <h2>{I18n("normalMessage")}</h2>
